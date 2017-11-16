@@ -37,9 +37,12 @@ def chess_to_matrix(pos):
 
 
 def pawn_move(move):
-    if query_board(move[1] - 1) == 'P':
+    bob = query_board(move)
+    print("bob")
+    if bob == " ":
+        print("bob")
 
 
-
+pawn_move("e3")
 print_board(board)
-query_board("e8")
+query_board("e2")
